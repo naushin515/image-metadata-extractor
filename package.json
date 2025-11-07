@@ -1,0 +1,17 @@
+{
+  "name": "metadata-extractor",
+  "version": "1.0.0",
+  "description": "A simple EXIF metadata extractor web app",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

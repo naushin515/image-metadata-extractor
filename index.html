@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Metadata Extraction</title>
+<link rel="stylesheet" href="styles.css"><script src="https://cdn.jsdelivr.net/npm/exif-js"></script></head>
+<body>
+<header class="site-header"><h1>Metadata Extraction from Digital Images</h1><p class="subtitle"></p></header>
+<main class="container">
+ 
+  <section class="uploader card">
+  <input id="fileInput" type="file" accept=".jpg,.jpeg,.png" hidden>
+  <div class="upload-area" id="customUpload">
+    <strong>Click to select an image</strong>
+    <span class="hint"></span>
+  </div>
+  <div id="fileInfo" class="file-info"></div>
+</section>
+
+  <section class="preview card" id="previewCard" hidden><h2>Preview</h2><img id="previewImage" alt="Image preview" /></section>
+  <section class="results card" id="resultsCard" hidden><h2>Extracted Metadata</h2><div class="tables-wrapper"><div class="table-card"><h3>Capture Settings</h3><table id="captureTable"><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody></tbody></table></div><div class="table-card"><h3>GPS Location</h3><table id="gpsTable"><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody></tbody></table><div id="mapLink" class="map-link"></div></div></div><div class="actions"><button id="downloadBtn">Download Report (TXT)</button><button id="clearBtn">Clear</button></div></section>
+  <section class="notes card"><h3>Notes</h3><ul><li>Use original photos copied from camera/phone.</li></ul></section>
+</main>
+<footer class="site-footer"><p></p></footer>
+<script src="script.js"></script></body></html>  
+
+
+    
